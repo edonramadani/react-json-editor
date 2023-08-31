@@ -101,6 +101,7 @@ export const validateJson = ({ jsonString, schema }: ValidateJsonArgs): Validati
     return validateSchema({ schema, json });
   } catch (err) {
     // try to extract the line number from the jsonlint error message
+    // @ts-ignore
     return jsonString ? improveParseError(err) : undefined;
   }
 };
