@@ -2,7 +2,7 @@
   "name": "react-json-editor-simple",
   "author": "Edon Ramadani <node.ramadani@gmail.com> (https://sujinlee.me/)",
   "description": "A simple online json editor",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edonramadani/react-json-editor.git"
